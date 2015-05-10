@@ -9,8 +9,8 @@ A Rasterio CLI command plugin example.
 Usage
 -----
 
-Given a path to a raster dataset, this project's `rio metasay` command prints a
-picture of a cow saying one random or optionally specified (see `--item`)
+Given a path to a raster dataset, this project's ``rio metasay`` command prints a
+picture of a cow saying one random or optionally specified (see ``--item``)
 metadata item from the dataset.
 
 .. code-block:: console
@@ -35,5 +35,5 @@ Installation
 ------------
 
 If you've already 
-`installed Rasterio <https://github.com/mapbox/rasterio#installation>`,
+`installed Rasterio <https://github.com/mapbox/rasterio#installation>`__,
 installation is just ``pip install rio-metasay``.
