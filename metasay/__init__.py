@@ -5,6 +5,9 @@ from random import choice
 from cowpy import cow
 
 
+__version__ = '1.1.0'
+
+
 def moothedata(metadata, key=None):
     keys = list(metadata.keys())
     # Blacklist metadata items that cows can't pronounce.

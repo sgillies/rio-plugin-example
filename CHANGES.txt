@@ -1,4 +1,8 @@
+1.1.0 (2015-05-12)
+------------------
+- Add a `--version` option to the command.
+- Remove `sys.exit()` call.
+
 1.0.0 (2015-05-10)
 ------------------
 - First and probably the last release.
-

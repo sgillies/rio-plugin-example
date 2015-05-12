@@ -2,13 +2,22 @@ from codecs import open as codecs_open
 from setuptools import setup, find_packages
 
 
+# Parse the version from the fiona module.
+with open('metasay/__init__.py') as f:
+    for line in f:
+        if line.find("__version__") >= 0:
+            version = line.split("=")[1].strip()
+            version = version.strip('"')
+            version = version.strip("'")
+            break
+
 # Get the long description from the relevant file
 with codecs_open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
 
 setup(name='rio-metasay',
-      version='1.0.0',
+      version=version,
       description=u"Skeleton of a Python package",
       long_description=long_description,
       classifiers=[],
