@@ -4,13 +4,12 @@ import sys
 
 import click
 import rasterio
-from rasterio.rio.cli import cli
 
 from metasay import moothedata
 from metasay import __version__ as metasay_version
 
 
-@cli.command(short_help="Cowsay some dataset metadata.")
+@click.command(short_help="Cowsay some dataset metadata.")
 @click.argument(
     'inputfile',
     type=click.Path(resolve_path=True),
@@ -21,8 +20,8 @@ from metasay import __version__ as metasay_version
 @click.pass_context
 def metasay(ctx, inputfile, item):
     """Moo some dataset metadata to stdout.
-    
-    Python module: rio-metasay 
+
+    Python module: rio-metasay
     (https://github.com/sgillies/rio-plugin-example).
     """
 

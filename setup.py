@@ -39,5 +39,5 @@ setup(name='rio-metasay',
       },
       entry_points="""
       [rasterio.rio_commands]
-      metasay=metasay.scripts.cli:cli
+      metasay=metasay.scripts.cli:metasay
       """      )
