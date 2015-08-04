@@ -1,3 +1,7 @@
+1.1.1 (2015-08-03)
+------------------
+- Use Rasterio releases to speed up Travis builds.
+  
 1.1.0 (2015-05-12)
 ------------------
 - Add a `--version` option to the command.
