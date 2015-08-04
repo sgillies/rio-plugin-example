@@ -37,3 +37,9 @@ Installation
 If you've already 
 `installed Rasterio <https://github.com/mapbox/rasterio#installation>`__,
 installation is just ``pip install rio-metasay``.
+
+Testing
+-------
+
+See ``.travis.yml`` for an example of how to use Rasterio releases to speed up
+your testing builds.
