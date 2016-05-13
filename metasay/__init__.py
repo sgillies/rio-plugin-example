@@ -4,7 +4,8 @@ from random import choice
 
 from cowpy import cow
 
-__version__ = '1.1.1'
+
+__version__ = '1.2.0'
 
 
 def moothedata(metadata, key=None):

@@ -1,3 +1,7 @@
+1.2.0 (2016-05-13)
+------------------
+- Use Rasterio's default environment.
+
 1.1.1 (2015-08-03)
 ------------------
 - Use Rasterio releases to speed up Travis builds.
