@@ -1,7 +1,7 @@
 sudo: false
 language: python
 env:
-  - RASTERIO_VERSION=0.32.post1
+  - RASTERIO_VERSION=0.32.0.post1
 addons:
   apt:
     packages:

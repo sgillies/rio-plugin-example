@@ -28,7 +28,7 @@ metadata item from the dataset.
                    ||     ||
 
 
-This project is a recipe for new, actually useful plugins, and hopefully 
+This project is a recipe for new, actually useful plugins, and hopefully
 generates a few nostalgic chuckles or groans.
 
 Installation

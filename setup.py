@@ -32,7 +32,7 @@ setup(name='rio-metasay',
       install_requires=[
           'click',
           'cowpy',
-          'rasterio>=0.23'
+          'rasterio'
       ],
       extras_require={
           'test': ['pytest'],
@@ -40,4 +40,4 @@ setup(name='rio-metasay',
       entry_points="""
       [rasterio.rio_commands]
       metasay=metasay.scripts.cli:metasay
-      """      )
+      """)
