@@ -19,6 +19,6 @@ before_install:
   - tar -xzvf /tmp/wheelhouse.tar.gz -C $HOME
   - pip install -U pip
 install:
-    - pip install --no-index --find-links=$HOME/wheelhouse --cache-dir=$HOME/.pip-cache -e .[test] 
+    - pip install --find-links=$HOME/wheelhouse --cache-dir=$HOME/.pip-cache -c constraints.txt -e .[test] 
 script: 
   - py.test
