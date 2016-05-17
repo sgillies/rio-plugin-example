@@ -1,4 +1,4 @@
-# Moothedata command.
+"""Cowsay raster dataset metdata items"""
 
 import sys
 

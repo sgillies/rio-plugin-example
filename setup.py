@@ -18,7 +18,7 @@ with codecs_open('README.rst', encoding='utf-8') as f:
 
 setup(name='rio-metasay',
       version=version,
-      description=u"Skeleton of a Python package",
+      description=u"Rasterio CLI plugin example",
       long_description=long_description,
       classifiers=[],
       keywords='',
